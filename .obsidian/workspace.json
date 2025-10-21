@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "8ab319d44bd4abc9",
+        "id": "32134d23a9f4f446",
         "type": "split",
         "children": [
           {
@@ -31,23 +31,23 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Script Tone.md",
+                    "file": "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/02. Interactive Shell Expression.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Script Tone"
+                  "title": "02. Interactive Shell Expression"
                 }
               }
             ],
             "currentTab": 1
           },
           {
-            "id": "65acbf2d2cb55185",
+            "id": "dcfb48c05aac9833",
             "type": "tabs",
             "children": [
               {
-                "id": "002440d6584dbcf6",
+                "id": "1386d3697e0dc0b3",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -238,13 +238,35 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "002440d6584dbcf6",
+  "active": "1386d3697e0dc0b3",
   "lastOpenFiles": [
+    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/02. Interactive Shell Expression.md",
+    "Language & Libraries/Python/automate the borings stuff with python/automatetheboringstuffwithpython_new.pdf",
+    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/01. Topic- Python Basics.md",
+    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1",
+    "Language & Libraries/Python/automate the borings stuff with python",
+    "Devops/Jenkins/00. syllabus.md",
+    "Language & Libraries/Python/Eric_Matthes_Python_Crash_Course_A_Hands.pdf",
+    "Language & Libraries/Python/Head First Python, First Edition (2010).pdf",
+    "Language & Libraries/Python/Hands-On_Machine_Learning_with_Scikit-Learn-Keras-and-TensorFlow-2nd-Edition-Aurelien-Geron.pdf",
+    "Language & Libraries/Python",
+    "Language & Libraries",
+    "Devops/Jenkins/02. How to run Jenkins/06. কোন পাইপ লাইনটি ব্যবহার করব.md",
+    "Devops/Jenkins/02. How to run Jenkins/05. Blue Ocean.md",
+    "Devops/Jenkins/02. How to run Jenkins/04. Declarative Pipeline.md",
+    "Devops/Jenkins/02. How to run Jenkins/03. Scripted Pipeline.md",
+    "Devops/Jenkins/02. How to run Jenkins/02. Build Pipeline.md",
+    "Devops/Jenkins/02. How to run Jenkins/01. Pipelines.md",
+    "Devops/Jenkins/02. How to run Jenkins/Pipe Lines",
+    "Devops/Jenkins/02. How to run Jenkins",
+    "Tutorial/Bash Scripting/00. Syllabus.md",
+    "Tutorial/Bash Scripting/0.1 chat conversation.md",
     "Script Tone.md",
-    "Devops/Jenkins/01. What is Devops/02. video script.md",
-    "Devops/Jenkins/01. What is Devops/01.  speach.md",
-    "Devops/Jenkins/01. What is Devops",
-    "Devops",
-    "Devops/Jenkins"
+    "Devops/Jenkins/01. Introduction/03. benifits of devops/speach.md",
+    "Devops/Jenkins/01. Introduction/01. What is Devops/0. key-point.md",
+    "Devops/Jenkins/01. Introduction/01. What is Devops/01.  speach.md",
+    "Devops/Jenkins/01. What is Devops/00..md",
+    "Devops/Jenkins/01. Introduction/01. What is Devops/03. post.md",
+    "Devops/Jenkins/01. Introduction/01. What is Devops/02. video script.md"
   ]
 }
