@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "32134d23a9f4f446",
+        "id": "9311ad695d3ce565",
         "type": "split",
         "children": [
           {
@@ -15,39 +15,33 @@
                 "id": "c8768ac6da44d365",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Devops/Jenkins/01. What is Devops/02. video script.md",
-                    "mode": "source",
-                    "source": false
-                  },
+                  "type": "empty",
+                  "state": {},
                   "icon": "lucide-file",
-                  "title": "02. video script"
+                  "title": "New tab"
                 }
               },
               {
                 "id": "8a2db94afc4ca390",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "pdf",
                   "state": {
-                    "file": "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/02. Interactive Shell Expression.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "Language & Libraries/Python/automate the borings stuff with python/automatetheboringstuffwithpython_new.pdf"
                   },
-                  "icon": "lucide-file",
-                  "title": "02. Interactive Shell Expression"
+                  "icon": "lucide-file-text",
+                  "title": "automatetheboringstuffwithpython_new"
                 }
               }
             ],
             "currentTab": 1
           },
           {
-            "id": "dcfb48c05aac9833",
+            "id": "9aa39bd92e454001",
             "type": "tabs",
             "children": [
               {
-                "id": "1386d3697e0dc0b3",
+                "id": "6547d05ea130dc17",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -238,10 +232,16 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "1386d3697e0dc0b3",
+  "active": "6547d05ea130dc17",
   "lastOpenFiles": [
-    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/02. Interactive Shell Expression.md",
     "Language & Libraries/Python/automate the borings stuff with python/automatetheboringstuffwithpython_new.pdf",
+    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/08. summary.md",
+    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/07. Dissecting Your Program (তোমার প্রোগ্রামের ভেতরের কাজ বোঝা).md",
+    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/06. write your first program.md",
+    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/05. store a variable.md",
+    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/04.  Integer, Floating Point, String data type.md",
+    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/03. Python Math Operators & Order of Operations.md",
+    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/02. Interactive Shell Expression.md",
     "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/01. Topic- Python Basics.md",
     "Language & Libraries/Python/automate the borings stuff with python/Lecture 1",
     "Language & Libraries/Python/automate the borings stuff with python",
