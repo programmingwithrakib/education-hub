@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "9311ad695d3ce565",
+        "id": "c4280602add0310c",
         "type": "split",
         "children": [
           {
@@ -25,23 +25,25 @@
                 "id": "8a2db94afc4ca390",
                 "type": "leaf",
                 "state": {
-                  "type": "pdf",
+                  "type": "markdown",
                   "state": {
-                    "file": "Language & Libraries/Python/automate the borings stuff with python/automatetheboringstuffwithpython_new.pdf"
+                    "file": "Test Note.md",
+                    "mode": "source",
+                    "source": false
                   },
-                  "icon": "lucide-file-text",
-                  "title": "automatetheboringstuffwithpython_new"
+                  "icon": "lucide-file",
+                  "title": "Test Note"
                 }
               }
             ],
             "currentTab": 1
           },
           {
-            "id": "9aa39bd92e454001",
+            "id": "80e5b0f5b7638fd0",
             "type": "tabs",
             "children": [
               {
-                "id": "6547d05ea130dc17",
+                "id": "8ef5d27b959c4724",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -232,23 +234,29 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "6547d05ea130dc17",
+  "active": "8ef5d27b959c4724",
   "lastOpenFiles": [
-    "Language & Libraries/Python/automate the borings stuff with python/automatetheboringstuffwithpython_new.pdf",
-    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/08. summary.md",
+    "Test Note.md",
     "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/07. Dissecting Your Program (তোমার প্রোগ্রামের ভেতরের কাজ বোঝা).md",
+    "Code Bondhu/Python (Automate)/03. Python Variable & First Program.md",
     "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/06. write your first program.md",
     "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/05. store a variable.md",
+    "Code Bondhu/Python (Automate)/02. Math Operator & Number And String.md",
+    "Code Bondhu/Python (Automate)/01. Python Basics.md",
     "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/04.  Integer, Floating Point, String data type.md",
     "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/03. Python Math Operators & Order of Operations.md",
     "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/02. Interactive Shell Expression.md",
+    "Code Bondhu/Python (Automate)",
+    "Code Bondhu",
     "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/01. Topic- Python Basics.md",
-    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1",
-    "Language & Libraries/Python/automate the borings stuff with python",
-    "Devops/Jenkins/00. syllabus.md",
+    "Language & Libraries/Python/automate the borings stuff with python/automatetheboringstuffwithpython_new.pdf",
+    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/08. summary.md",
     "Language & Libraries/Python/Eric_Matthes_Python_Crash_Course_A_Hands.pdf",
     "Language & Libraries/Python/Head First Python, First Edition (2010).pdf",
     "Language & Libraries/Python/Hands-On_Machine_Learning_with_Scikit-Learn-Keras-and-TensorFlow-2nd-Edition-Aurelien-Geron.pdf",
+    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1",
+    "Language & Libraries/Python/automate the borings stuff with python",
+    "Devops/Jenkins/00. syllabus.md",
     "Language & Libraries/Python",
     "Language & Libraries",
     "Devops/Jenkins/02. How to run Jenkins/06. কোন পাইপ লাইনটি ব্যবহার করব.md",
@@ -257,16 +265,12 @@
     "Devops/Jenkins/02. How to run Jenkins/03. Scripted Pipeline.md",
     "Devops/Jenkins/02. How to run Jenkins/02. Build Pipeline.md",
     "Devops/Jenkins/02. How to run Jenkins/01. Pipelines.md",
-    "Devops/Jenkins/02. How to run Jenkins/Pipe Lines",
-    "Devops/Jenkins/02. How to run Jenkins",
     "Tutorial/Bash Scripting/00. Syllabus.md",
     "Tutorial/Bash Scripting/0.1 chat conversation.md",
     "Script Tone.md",
     "Devops/Jenkins/01. Introduction/03. benifits of devops/speach.md",
     "Devops/Jenkins/01. Introduction/01. What is Devops/0. key-point.md",
     "Devops/Jenkins/01. Introduction/01. What is Devops/01.  speach.md",
-    "Devops/Jenkins/01. What is Devops/00..md",
-    "Devops/Jenkins/01. Introduction/01. What is Devops/03. post.md",
-    "Devops/Jenkins/01. Introduction/01. What is Devops/02. video script.md"
+    "Devops/Jenkins/01. What is Devops/00..md"
   ]
 }
