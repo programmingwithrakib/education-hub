@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "c4280602add0310c",
+        "id": "d21c8d7d992316ff",
         "type": "split",
         "children": [
           {
@@ -27,23 +27,37 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Test Note.md",
+                    "file": "Automation With Python/Reveal Template/template.html.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Test Note"
+                  "title": "template.html"
+                }
+              },
+              {
+                "id": "277bc3bba1c7ffed",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language & Libraries/Python/automate the borings stuff with python/Lecture 2/01.  Control Flow And Boolean Value.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "01.  Control Flow And Boolean Value"
                 }
               }
             ],
             "currentTab": 1
           },
           {
-            "id": "80e5b0f5b7638fd0",
+            "id": "e02c8258f3f09e0b",
             "type": "tabs",
             "children": [
               {
-                "id": "8ef5d27b959c4724",
+                "id": "a7c94aa1220e33d1",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -234,43 +248,42 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "8ef5d27b959c4724",
+  "active": "a7c94aa1220e33d1",
   "lastOpenFiles": [
-    "Test Note.md",
-    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/07. Dissecting Your Program (তোমার প্রোগ্রামের ভেতরের কাজ বোঝা).md",
-    "Code Bondhu/Python (Automate)/03. Python Variable & First Program.md",
-    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/06. write your first program.md",
-    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/05. store a variable.md",
-    "Code Bondhu/Python (Automate)/02. Math Operator & Number And String.md",
-    "Code Bondhu/Python (Automate)/01. Python Basics.md",
-    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/04.  Integer, Floating Point, String data type.md",
-    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/03. Python Math Operators & Order of Operations.md",
-    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/02. Interactive Shell Expression.md",
-    "Code Bondhu/Python (Automate)",
-    "Code Bondhu",
-    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/01. Topic- Python Basics.md",
-    "Language & Libraries/Python/automate the borings stuff with python/automatetheboringstuffwithpython_new.pdf",
-    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1/08. summary.md",
+    "Automation With Python/Reveal Template/template.html.md",
+    "Reveal Js Template.zip",
+    "Automation With Python/For Code Bondhu/01. Python Basics.md",
+    "Automation With Python/Reveal Template",
+    "Automation With Python/Book Read (For Leacture)",
+    "Automation With Python/Code Bondhu/Python (Automate)/Untitled.base",
+    "Code Education Tools.md",
+    "Automation With Python",
+    "Code Bondhu Markup.md",
+    "Script Tone.md",
+    "Automation With Python/automatetheboringstuffwithpython_new.pdf",
+    "Automation With Python/Book Read (For Leacture)/Lecture 2/02. ( Comparison Operators).md",
+    "Automation With Python/For Code Bondhu/05. Control Flow And Boolean Value.md",
+    "Automation With Python/For Code Bondhu/04. Dissecting Your Program (তোমার প্রোগ্রামের ভেতরের কাজ বোঝা).md",
+    "Automation With Python/Book Read (For Leacture)/Lecture 2/01.  Control Flow And Boolean Value.md",
+    "Automation With Python/Book Read (For Leacture)/Lecture 2",
+    "Automation With Python/For Code Bondhu/03. Python Variable & First Program.md",
+    "Automation With Python/Book Read (For Leacture)/Lecture 1/07. Dissecting Your Program (তোমার প্রোগ্রামের ভেতরের কাজ বোঝা).md",
+    "Automation With Python/Book Read (For Leacture)/Lecture 1/08. summary.md",
+    "Automation With Python/For Code Bondhu/02. Math Operator & Number And String.md",
+    "Automation With Python/Book Read (For Leacture)/Lecture 1/04.  Integer, Floating Point, String data type.md",
+    "Automation With Python/Book Read (For Leacture)/Lecture 1/06. write your first program.md",
+    "Automation With Python/Book Read (For Leacture)/Lecture 1/05. store a variable.md",
+    "Automation With Python/Book Read (For Leacture)/Lecture 1/03. Python Math Operators & Order of Operations.md",
+    "Automation With Python/Book Read (For Leacture)/Lecture 1/02. Interactive Shell Expression.md",
+    "Automation With Python/Code Bondhu/Python (Automate)",
+    "Automation With Python/For Code Bondhu",
+    "Automation With Python/Book Read (For Leacture)/Lecture 1/01. Topic- Python Basics.md",
     "Language & Libraries/Python/Eric_Matthes_Python_Crash_Course_A_Hands.pdf",
-    "Language & Libraries/Python/Head First Python, First Edition (2010).pdf",
-    "Language & Libraries/Python/Hands-On_Machine_Learning_with_Scikit-Learn-Keras-and-TensorFlow-2nd-Edition-Aurelien-Geron.pdf",
-    "Language & Libraries/Python/automate the borings stuff with python/Lecture 1",
-    "Language & Libraries/Python/automate the borings stuff with python",
     "Devops/Jenkins/00. syllabus.md",
-    "Language & Libraries/Python",
-    "Language & Libraries",
     "Devops/Jenkins/02. How to run Jenkins/06. কোন পাইপ লাইনটি ব্যবহার করব.md",
     "Devops/Jenkins/02. How to run Jenkins/05. Blue Ocean.md",
     "Devops/Jenkins/02. How to run Jenkins/04. Declarative Pipeline.md",
     "Devops/Jenkins/02. How to run Jenkins/03. Scripted Pipeline.md",
-    "Devops/Jenkins/02. How to run Jenkins/02. Build Pipeline.md",
-    "Devops/Jenkins/02. How to run Jenkins/01. Pipelines.md",
-    "Tutorial/Bash Scripting/00. Syllabus.md",
-    "Tutorial/Bash Scripting/0.1 chat conversation.md",
-    "Script Tone.md",
-    "Devops/Jenkins/01. Introduction/03. benifits of devops/speach.md",
-    "Devops/Jenkins/01. Introduction/01. What is Devops/0. key-point.md",
-    "Devops/Jenkins/01. Introduction/01. What is Devops/01.  speach.md",
-    "Devops/Jenkins/01. What is Devops/00..md"
+    "Devops/Jenkins/02. How to run Jenkins/02. Build Pipeline.md"
   ]
 }
