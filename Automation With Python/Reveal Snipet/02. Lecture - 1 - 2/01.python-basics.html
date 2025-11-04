@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Python Lecture 01</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="../../../Reveal-Js/dist/reset.css">
+		<link rel="stylesheet" href="../../../Reveal-Js/dist/reveal.css">
+		<link rel="stylesheet" href="../../../Reveal-Js/dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../../../Reveal-Js/plugin/highlight/github-dark.min.css">
+		<style>
+		.fragment.blur {
+			filter: blur(5px);
+		}
+		.fragment.blur.visible {
+			filter: none;
+		}
+
+		table{
+			width: 100%;
+			margin: auto;
+			border-collapse: collapse;
+			font-size: 20px;
+			border: 1px solid #ddd;
+		}
+
+		th, td{
+			padding: 12px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+		}
+		.aqua {
+			color: aqua!important;
+		}
+
+		</style>
+
+
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+
+				<section>
+					<h1 class="aqua">Python Basics - 01</h1>
+					<p>Lecture by: <b>MD Rakib Miah</b></p>
+					<p>Website: <a href="https://codebondhu.com">codebondu.com</a></p>
+					<p>Course: <b>Python Chapter 01</b></p>
+				</section>
+
+				<section>
+					<h1 class="aqua">Python Operator</h1>
+				</section>
+
+
+				<section>
+					<section>অপারেটর মানে হলো কিছু বিশেষ চিহ্ন, যেগুলো দিয়ে আমরা ভেরিয়েবল আর সংখ্যার উপর কাজ করাই।</section>
+					<section>এই অপারেটরগুলো দিয়ে যোগ-বিয়োগ, তুলনা করা, লজিক চেক — এসব করা হয়।</section>
+					<section>সহজ কথায়, কম্পিউটারকে হিসাব-নিকাশ আর ডেটা নিয়ে খেলাধুলা করানোর জন্য অপারেটর খুব দরকারি।</section>
+				</section>
+
+				<section>
+					<h1 class="aqua">Types Of Python Operator</h1>
+				</section>
+
+
+				<section>
+					<section>1. Arithmetic Operators (গাণিতিক অপারেটর)</section>
+					<section>2. Comparison Operators (তুলনামূলক অপারেটর)</section>
+					<section>3. Logical Operators (লজিক্যাল অপারেটর)</section>
+					<section>4. Assignment Operators (অ্যাসাইনমেন্ট অপারেটর)</section>
+					<section>5. Bitwise Operators (বিটওয়াইজ অপারেটর)</section>
+					<section>6. Membership Operators (মেম্বারশিপ অপারেটর)</section>
+					<section>7. Identity Operators (আইডেন্টিটি অপারেটর)</section>
+				</section>
+
+
+				<section style="text-align: left;">
+					<h5 class="aqua">Arithmetic Operators (গাণিতিক অপারেটর)</h5>
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Symbol</th>
+							<th>Meaning</th>
+							<th>Example</th>
+						</tr>
+
+						<tr>
+							<td>Addition</td>
+							<td>+</td>
+							<td>দুইটা মান যোগ করে</td>
+							<td>5 + 3 = 8</td>
+						</tr>
+
+						<tr>
+							<td>Subtraction</td>
+							<td>-</td>
+							<td>একটা মান থেকে আরেকটা মান বিয়োগ করে</td>
+							<td>5 - 2 = 3</td>
+						</tr>
+
+						<tr>
+							<td>Multiplication</td>
+							<td>*</td>
+							<td>গুণ করে</td>
+							<td>4 * 3 = 12</td>
+						</tr>
+
+						<tr>
+							<td>Division</td>
+							<td>/</td>
+							<td>ভাগ করে এবং দশমিক রেজাল্ট দেয়</td>
+							<td>10 / 4 = 2.5</td>
+						</tr>
+
+						<tr>
+							<td>Floor Division</td>
+							<td>//</td>
+							<td>ভাগ করে কিন্তু পূর্ণসংখ্যা রিটার্ন করে</td>
+							<td>10 // 4 = 2</td>
+						</tr>
+
+						<tr>
+							<td>Modulus</td>
+							<td>%</td>
+							<td>ভাগশেষ (remainder) দেয়</td>
+							<td>10 % 3 = 1</td>
+						</tr>
+
+						<tr>
+							<td>Exponent</td>
+							<td>**</td>
+							<td>ঘাত (power) হিসাব করে</td>
+							<td>2 ** 3 = 8</td>
+						</tr>
+					</table>
+				</section>
+
+
+				<section style="text-align: left;">
+					<h4 class="aqua">Operator Precedence</h4>
+					<table cellpadding="8" cellspacing="0">
+    <tr>
+        <th>Priority</th>
+        <th>Operation</th>
+        <th>Symbol</th>
+        <th>Example</th>
+        <th>Result</th>
+    </tr>
+
+    <tr>
+        <td>1 (Highest)</td>
+        <td>Parentheses</td>
+        <td>()</td>
+        <td>(2 + 3) * 4</td>
+        <td>20</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Exponent</td>
+        <td>**</td>
+        <td>2 ** 3</td>
+        <td>8</td>
+    </tr>
+
+
+    <tr>
+        <td>3</td>
+        <td>Multiplication / Division / Floor Div / Modulus</td>
+        <td>*, /, //, %</td>
+        <td>10 / 3</td>
+        <td>3.33</td>
+    </tr>
+
+    <tr>
+        <td>4 (Lowest)</td>
+        <td>Addition / Subtraction</td>
+        <td>+, -</td>
+        <td>10 - 4 + 2</td>
+        <td>8</td>
+    </tr>
+</table>
+				</section>
+					
+
+
+
+<section>
+<h4 class="aqua" data-id="code-title">Precedence Example</h4>
+<pre data-id="code-animation"><code data-line-numbers="1|2|3|4|5"  data-trim >
+(5 - 1) * ((7 + 1) / (3 - 1))
+→ 4 * ((7 + 1) / (3 - 1))
+→ 4 * (8 / 2)
+→ 4 * 4.0
+→ 16.0
+</code></pre>
+</pre>
+</section>
+
+
+
+<section>
+<pre><code data-trim >
+>>> 5 +
+SyntaxError: invalid syntax
+
+>>> 42 + 5 + * 2
+SyntaxError: invalid syntax
+</code></pre>
+</section>
+
+
+
+
+<section  style="font-size: 40px; line-height: 2;">
+	<h4 class="aqua">এক্সপ্রেশন (Expression) কী?</h4>
+
+এক্সপ্রেশন মানে হলো — কিছু value আর operator একসাথে মিলে একটা হিসাব বা কাজ করে, যার শেষে একটা মান বের হয়।
+</section>
+
+
+
+<section>
+<h4 style="text-align: left;" class="aqua" data-id="code-title">Python Data Types</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+<tr>
+<th><b>ডেটা টাইপ</b></th>
+<th><b>উদাহরণ</b></th>
+</tr>
+
+<tr>
+<td><b>Integers (পূর্ণসংখ্যা)</b></td>
+<td>-2, -1, 0, 1, 2, 3, 4, 5</td>
+</tr>
+
+<tr>
+<td><b>Floating-point numbers (দশমিক সংখ্যা)</b></td>
+<td>-1.25, -1.0, -0.5, 0.0, 0.5, 1.0, 1.25</td>
+</tr>
+
+<tr>
+<td><b>Strings (লেখা বা টেক্সট)</b></td>
+<td>‘a’, ‘aa’, ‘Hello!’, ‘11 cats’</td>
+</tr>
+</table>
+</section>
+
+
+
+
+<section>
+<h6 class="aqua">যদি ' দিয়ে শুরু করো কিন্তু শেষ না করো, Python রেগে যাবে 😅</h2>
+<pre><code data-trim >
+>>> 'Hello world!
+SyntaxError: EOL while scanning string literal
+</code></pre>
+</section>
+
+
+<section>
+<h2 class="aqua">String Concatenation</h2>
+</section>
+
+
+<section>
+	<section>
+	<p style="font-size: 20px;" class="aqua">অপারেটর স্ট্রিং-এর ক্ষেত্রেও কাজ করে. তবে এখানে সেটা “যোগ” না, বরং “জোড়া লাগানো”র কাজ করে।</p>
+	<pre><code data-trim >
+	>>> 'Hello ' + 'world!'
+	'Hello world!'
+	</code></pre>
+	</section>
+
+
+	<section>
+	<p style="font-size: 20px;" class="aqua">কিন্তু যদি স্ট্রিং আর সংখ্যা একসাথে দাও —</p>
+	<pre><code data-trim >
+	>>> 'Hello ' + 5
+	TypeError: can only concatenate str (not "int") to str
+	</code></pre>
+	</section>
+
+
+
+	<section>
+	<p style="font-size: 20px;" class="aqua">সমাধান — সংখ্যাটাকে আগে str() দিয়ে টেক্সটে রূপান্তর করো। —</p>
+	<pre><code data-trim >
+	>>> 'Hello ' + str(5)
+	'Hello 5'
+	</code></pre>
+	</section>
+
+	<section>
+	<p style="font-size: 20px;" class="aqua">অপারেটর যদি একটা স্ট্রিং আর একটা সংখ্যা পায়, তাহলে সেই স্ট্রিংটাকে বারবার রিপিট করে। —</p>
+	<pre><code data-trim >
+	>>> 'Hello ' * 5
+	'Hello Hello Hello Hello Hello '
+	</code></pre>
+	</section>
+</section>
+
+
+
+<section>
+	<section>
+		<h4 class="aqua">Comments</h4>
+		<pre><code data-trim >
+		# This is a single-line comment
+
+		'''
+		This is a multi-line comment
+		'''
+		</code></pre>
+	</section>
+
+	<section>
+		<h4 class="aqua">Print()</h4>
+		<pre><code class="language-python" data-trim >
+		# Print "Hello, World!" to the console
+		print("Hello, World!")
+		</code></pre>
+	</section>
+
+	<section>
+		<h4 class="aqua">Input()</h4>
+		<pre><code class="language-python" data-trim >
+		# Get user input and store it in a variable
+		name = input("Enter your name: ")
+		print("Hello, " + name + "!")
+		</code></pre>
+</section>
+
+<section>
+		<h4 class="aqua">Variables</h4>
+		<pre><code class="language-python" data-trim >
+		# Assigning values to variables
+		x = 10          # Integer
+		y = 3.14        # Floating-point number
+		name = "Alice"  # String
+
+		# Using variables in expressions
+		sum = x + 5
+		greeting = "Hello, " + name
+		print(sum)
+		print(greeting)
+		</code></pre>
+</section>
+
+<section>
+	<h4 class="aqua">Rules of variable naming</h4>
+	<ul style="font-size: 25px; line-height: 2;">
+		<li>Variable names must start with a letter or an underscore (_).</li>
+		<li>They can contain letters, numbers, and underscores.</li>
+		<li>Variable names are case-sensitive.</li>
+		<li>Avoid using Python keywords as variable names.</li>
+	</ul>
+</section>
+
+
+<section>
+	<h4 class="aqua">List of Reserved Keywords</h4>
+	<table border="1" cellspacing="0" cellpadding="8">
+		<tr>
+			<th>and</th>
+			<th>as</th>
+			<th>assert</th>
+			<th>break</th>
+			<th>class</th>
+			<th>continue</th>
+		</tr>
+		<tr>
+			<th>def</th>
+			<th>del</th>
+			<th>elif</th>
+			<th>else</th>
+			<th>except</th>
+			<th>False</th>
+		</tr>
+		<tr>
+			<th>finally</th>
+			<th>for</th>
+			<th>from</th>
+			<th>global</th>
+			<th>if</th>
+			<th>import</th>
+		</tr>
+		<tr>
+			<th>in</th>		
+			<th>is</th>
+			<th>lambda</th>
+			<th>None</th>
+			<th>nonlocal</th>
+			<th>not</th>
+		</tr>
+		<tr>
+			<th>or</th>
+			<th>pass</th>
+			<th>raise</th>
+			<th>return</th>
+			<th>True</th>
+			<th>try</th>
+		</tr>
+</section>
+
+	
+			</div>	
+		</div>
+
+
+	
+
+
+		<script src="../../../Reveal-Js/dist/reveal.js"></script>
+		<script src="../../../Reveal-Js/plugin/zoom/zoom.js"></script>
+		<script src="../../../Reveal-Js/plugin/notes/notes.js"></script>
+		<script src="../../../Reveal-Js/plugin/search/search.js"></script>
+		<script src="../../../Reveal-Js/plugin/markdown/markdown.js"></script>
+		<script src="../../../Reveal-Js/plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+
+	</body>
+</html>
